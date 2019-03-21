@@ -1,0 +1,111 @@
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0px;
+}
+
+/*-------------------------------------------- SPLASH ------------------------------------*/
+#splash_pic {
+  height: 100%;
+  width: 100%;
+  background-image: url("images/kelly-sikkema-455242-crop.png");
+}
+
+.wide_background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#enter_btn:hover {
+  background: black;
+  opacity: .7;
+}
+#enter_btn {
+  position: relative;
+  top: 52%;
+  left: 46.5%;
+  display: table;
+  border-style: solid;
+  border-width: 4;
+  opacity: .75;
+  box-shadow: 3px 4px 1px #78624F;
+  color: #FFFAEA;
+  border-color: #FFFAEA;
+  font-size: 22px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+/*-------------------------------------------- MAIN ------------------------------------*/
+body{
+  margin: 0px !important;
+}
+
+.container, .container-fluid {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0px !important;
+  scroll-behavior: smooth;
+}
+  #love_pic {
+  background: url('http://localhost:8888/wp_playground/wp-content/uploads/2018/05/abstract-art-board-889839.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0%
+}
+
+#life_pic {
+  background: url('http://localhost:8888/wp_playground/wp-content/uploads/2018/05/abstract-art-blur-544917.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100%
+}
+
+#inbetween_pic {
+  background: url('http://localhost:8888/wp_playground/wp-content/uploads/2018/05/dariusz-sankowski-56725-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 200%
+}
+
+.wide_background {
+  height: 100%;
+  width: 100%;
+}
+
+.section_btn {
+  height: 269px;
+  position: absolute;
+  top: 64%;
+  left: 3%;
+  overflow: hidden;
+  color: white;
+  font-size: 200px;
+  font-weight: 600;
+  font-family: sans-serif;
+  opacity: .3;
+}
+
+.top_btn {
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  opacity: .3;
+}
+
+.light_pic a {
+  color: black;
+  opacity: .8;
+}
