@@ -1,3 +1,14 @@
+## This is a customized version of the Wordpress theme, West, more details on the theme below.
+ 
+## Most of the additional code for design and animation is page-template specific and is housed in the following files:
+page_splash.php
+page_main.php
+page_life.php
+page_love.php
+page_in-between.php
+
+/* --------------------------------------------- Original Designer's Notes ---------------------------------------------- */
+
 I.Theme
 
 West, Copyright 2015 
