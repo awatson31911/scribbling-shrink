@@ -1,5 +1,5 @@
 /*
-Theme Name: West-Custom
+Theme Name: West
 Theme URI: http://athemes.com/theme/west
 Author: aThemes
 Author URI: http://athemes.com
@@ -235,10 +235,10 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-/* .main-navigation {
+.main-navigation {
 	display: block;
 	float: right;
-} */
+}
 
 .main-navigation ul {
 	list-style: none;
@@ -300,13 +300,13 @@ a:active {
 .main-navigation ul ul li:last-of-type {
 	border-bottom: 0;
 }
-/* .main-navigation li:hover > a,
+.main-navigation li:hover > a,
 .main-navigation li.focus > a {
-} */
+}
 
-/* .main-navigation ul ul :hover > a,
+.main-navigation ul ul :hover > a,
 .main-navigation ul ul .focus > a {
-} */
+}
 .main-navigation a:hover,
 .main-navigation ul ul a:hover,
 .main-navigation ul ul a.focus {
@@ -508,13 +508,13 @@ a:active {
 --------------------------------------------------------------*/
 .alignleft {
 	display: inline;
-	/* float: left; */
+	float: left;
 	margin-right: 1.5em;
 }
 
 .alignright {
 	display: inline;
-	/* float: right; */
+	float: right;
 	margin-left: 1.5em;
 }
 
@@ -650,9 +650,9 @@ a:active {
 	font-family: FontAwesome;
 	color: inherit;
 }
-/* .social-menu-widget li a:hover,
+.social-menu-widget li a:hover,
 .social-widget a:hover {
-} */
+}
 .social-menu-widget a:before {
 	font-size: 22px;
 }
@@ -790,10 +790,10 @@ a:active {
 	display: inline;
 }
 
-/* .page-content,
+.page-content,
 .entry-content,
 .entry-summary {
-} */
+}
 
 .page-links {
 	clear: both;
@@ -930,8 +930,8 @@ a:active {
 .comments-area .children {
 	padding-left: 20px;
 }
-/* .comments-area .fn {
-} */
+.comments-area .fn {
+}
 .comment-author .avatar {
 	position: absolute;
 }
@@ -976,8 +976,8 @@ a.comment-reply-link:hover {
 .comments-area a.url {
 	color: #444;
 }
-/* .bypostauthor {
-} */
+.bypostauthor {
+}
 .comment-respond {
 	margin-top: 60px;
 }

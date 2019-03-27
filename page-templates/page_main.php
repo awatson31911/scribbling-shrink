@@ -15,7 +15,6 @@ $(document).ready(function(){
 
 	//Button should appear once user attempts to scroll to top
 	topBtn.on('click', function(e) {
-			console.log(this.hash)
       e.preventDefault();
   
       $('html, body').animate({
@@ -25,16 +24,18 @@ $(document).ready(function(){
         window.location.hash = '#';
       });
   
-	});
+});
 	
-	$(window).on('scroll', function () {
-		if (document.body.scrollTop > 766 || document.documentElement.scrollTop > 766) {
-			topBtn.css("display", "block")
+	if (verge.viewportW() > 600) {
+		$(window).on('scroll', function () {
+			if (document.body.scrollTop > 766 || document.documentElement.scrollTop > 766) {
+				topBtn.css("display", "block")
+			}
+			if (document.documentElement.scrollTop <= 440) {
+				topBtn.css("display", "none")
+			}
 		}
-		if (document.documentElement.scrollTop <= 440) {
-			topBtn.css("display", "none")
-		}
-		
+	}
 	})
 
 
@@ -116,13 +117,12 @@ $(document).ready(function(){
 	}
 
 	.section_btn {
-		height: 269px;
 		position: absolute;
     top: 64%;
-    left: 3%;
+    left: 7%;
 		overflow: hidden;
     color: white;
-    font-size: 200px;
+    font-size: 145px;
 		font-weight: 600;
 		font-family: sans-serif;
 		opacity: .3;
@@ -144,6 +144,23 @@ $(document).ready(function(){
 		opacity: .8;
 	}
 
+	@media only screen and (max-width: 1199px) {
+		.section_btn {
+			font-size: 95px;
+			top: 72%;
+		}
+	}
+	
+	@media only screen and (max-width: 600px) {
+		.section_btn {
+			font-size: 60px;
+			top: 82%;		
+		}
+		#top_btn {
+			display: none;
+		}
+	}
+
 </style>
 
 
@@ -151,8 +168,8 @@ $(document).ready(function(){
 	<main id="main" class="site-main" role="main">
 
 		<div id="love_pic" class="wide_background light_pic">
-			<a href="<?php echo site_url( '/category/love' ); ?>" 
-				class="section_btn">love</a>
+			<p><a href="<?php echo site_url( '/category/love' ); ?>" 
+				class="section_btn">love</a></p>
 		</div>
 
 

@@ -52,4 +52,4 @@ get_header(); ?>
 		get_sidebar();
 	endif;
 ?>
-<!--?php get_footer(); ?-->
+<?php get_footer(); ?>

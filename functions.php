@@ -259,34 +259,34 @@ endif;
 /**
  * Header text
  */
-// function west_header_text() {
+function west_header_text() {
 
-// 	if ( !function_exists('pll_register_string') ) {
-// 		$header_text 		= get_theme_mod('header_text', 'TIME TO GO WEST');
-// 		$button_left		= get_theme_mod('button_left', 'Explore');
-// 		$button_right 		= get_theme_mod('button_right', 'Browse');
-// 	} else {
-// 		$header_text 		= pll__(get_theme_mod('header_text', 'TIME TO GO WEST'));
-// 		$button_left		= pll__(get_theme_mod('button_left', 'Explore'));
-// 		$button_right 		= pll__(get_theme_mod('button_right', 'Browse'));	
-// 	}
-// 	$button_left_url	= get_theme_mod('button_left_url', '#primary');
-// 	$button_right_url 	= get_theme_mod('button_right_url', '#primary');
+	if ( !function_exists('pll_register_string') ) {
+		$header_text 		= get_theme_mod('header_text', 'TIME TO GO WEST');
+		$button_left		= get_theme_mod('button_left', 'Explore');
+		$button_right 		= get_theme_mod('button_right', 'Browse');
+	} else {
+		$header_text 		= pll__(get_theme_mod('header_text', 'TIME TO GO WEST'));
+		$button_left		= pll__(get_theme_mod('button_left', 'Explore'));
+		$button_right 		= pll__(get_theme_mod('button_right', 'Browse'));	
+	}
+	$button_left_url	= get_theme_mod('button_left_url', '#primary');
+	$button_right_url 	= get_theme_mod('button_right_url', '#primary');
 
-// 	echo '<div class="header-info">
-// 			<div class="header-info-inner">
-// 				<h3 class="header-text">' . wp_kses_post($header_text) . '</h3>
-// 				<div class="header-buttons">';
-// 				if ($button_left_url) {
-// 					echo '<a class="button header-button left-button" href="' . esc_url($button_left_url) . '">' . esc_html($button_left) . '</a>';
-// 				}
-// 				if ($button_right_url) {
-// 					echo '<a class="button header-button right-button" href="' . esc_url($button_right_url) . '">' . esc_html($button_right) . '</a>';
-// 				}
-// 	echo 		'</div>';
-// 	echo 	'</div>';
-// 	echo '</div>';
-// }
+	echo '<div class="header-info">
+			<div class="header-info-inner">
+				<h3 class="header-text">' . wp_kses_post($header_text) . '</h3>
+				<div class="header-buttons">';
+				if ($button_left_url) {
+					echo '<a class="button header-button left-button" href="' . esc_url($button_left_url) . '">' . esc_html($button_left) . '</a>';
+				}
+				if ($button_right_url) {
+					echo '<a class="button header-button right-button" href="' . esc_url($button_right_url) . '">' . esc_html($button_right) . '</a>';
+				}
+	echo 		'</div>';
+	echo 	'</div>';
+	echo '</div>';
+}
 
 /**
  * Header image check

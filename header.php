@@ -23,11 +23,11 @@
 
 	<header id="masthead" class="site-header <?php echo west_has_header(); ?>" role="banner">
 		<div class="container">
-			<div class="site-branding col-md-6 col-sm-6 col-xs-12">
+			<div class="site-branding col-md-4 col-sm-6 col-xs-12">
 				<?php west_branding(); ?>
 			</div><!-- .site-branding -->
 
-			<nav id="site-navigation" class="main-navigation col-md-6" role="navigation">
+			<nav id="site-navigation" class="main-navigation col-md-8" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 			</nav><!-- #site-navigation -->
 			<nav class="mobile-nav"></nav>

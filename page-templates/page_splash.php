@@ -107,7 +107,7 @@ body {
 	top: 42%;
 	left: 46.5%;
 	padding-bottom: 30px;
-	font-size: 45px;
+	font-size: 25px;
 	font-family: cursive;
 	letter-spacing: 3px;
 	color: black;
