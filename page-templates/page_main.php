@@ -26,7 +26,6 @@ $(document).ready(function(){
   
 });
 	
-	if (verge.viewportW() > 600) {
 		$(window).on('scroll', function () {
 			if (document.body.scrollTop > 766 || document.documentElement.scrollTop > 766) {
 				topBtn.css("display", "block")
@@ -35,7 +34,6 @@ $(document).ready(function(){
 				topBtn.css("display", "none")
 			}
 		}
-	}
 	})
 
 
