@@ -33,8 +33,7 @@ $(document).ready(function(){
 			if (document.documentElement.scrollTop <= 440) {
 				topBtn.css("display", "none")
 			}
-		}
-	})
+		})
 
 
 
